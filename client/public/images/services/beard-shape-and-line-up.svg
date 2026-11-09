@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+
+<defs>
+  <linearGradient id="bgs7" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c2724" /><stop offset="1" stop-color="#191513" /></linearGradient>
+  <radialGradient id="glows7" cx=".5" cy=".42" r=".62"><stop offset="0" stop-color="#f7941d" stop-opacity=".10" /><stop offset="1" stop-color="#f7941d" stop-opacity="0" /></radialGradient>
+  <linearGradient id="golds7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf6a" /><stop offset="1" stop-color="#f7941d" /></linearGradient>
+  <pattern id="stripess7" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="22" height="22" fill="none" /><rect width="1.4" height="22" fill="#f7941d" opacity="0" /></pattern>
+  <filter id="grains7" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" /><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0" /></filter>
+</defs>
+<rect width="800" height="600" fill="url(#bgs7)" />
+<rect width="800" height="600" fill="url(#stripess7)" />
+<rect width="800" height="600" fill="url(#glows7)" />
+<g transform="translate(400 310) scale(1.45)"><g fill="none" stroke="url(#golds7)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-28)"><path d="M-110 20 L70 20 C95 20 105 -4 90 -26 C70 -56 20 -70 -30 -70 C-20 -40 -60 -20 -110 -14 Z" fill="url(#golds7)" fill-opacity=".14" /><path d="M-110 20 L-110 56 C-110 66 -100 72 -90 72 L60 72 C80 72 86 56 70 20" /><circle cx="-92" cy="46" r="5" fill="url(#golds7)" /></g></g>
+<rect width="800" height="600" fill="none" stroke="#f7941d" stroke-opacity=".28" stroke-width="2" transform="translate(14 14) scale(0.965 0.9533333333333334)" />
+<rect width="800" height="600" fill="none" filter="url(#grains7)" />
+</svg>

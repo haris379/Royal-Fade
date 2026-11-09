@@ -1,0 +1,26 @@
+{
+  "name": "royal-fade",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Royal Fade - Premium Barber Studio (MERN, deployable as a single Vercel project)",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c yellow,cyan \"npm run server\" \"npm run client\"",
+    "client": "npm run dev --workspace client",
+    "server": "npm run dev --workspace server",
+    "build": "npm run build --workspace client",
+    "test": "npm test --workspace server && npm test --workspace client",
+    "seed": "npm run seed --workspace server",
+    "create-developer": "npm run create-developer --workspace server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

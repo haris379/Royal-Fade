@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+
+<defs>
+  <linearGradient id="bgs11" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#272321" /><stop offset="1" stop-color="#151211" /></linearGradient>
+  <radialGradient id="glows11" cx=".5" cy=".42" r=".62"><stop offset="0" stop-color="#f7941d" stop-opacity=".10" /><stop offset="1" stop-color="#f7941d" stop-opacity="0" /></radialGradient>
+  <linearGradient id="golds11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf6a" /><stop offset="1" stop-color="#f7941d" /></linearGradient>
+  <pattern id="stripess11" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="22" height="22" fill="none" /><rect width="1.4" height="22" fill="#f7941d" opacity="0" /></pattern>
+  <filter id="grains11" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" /><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0" /></filter>
+</defs>
+<rect width="800" height="600" fill="url(#bgs11)" />
+<rect width="800" height="600" fill="url(#stripess11)" />
+<rect width="800" height="600" fill="url(#glows11)" />
+<g transform="translate(400 310) scale(1.45)"><g fill="none" stroke="url(#golds11)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M-100 60 L-120 -50 L-50 0 L0 -90 L50 0 L120 -50 L100 60 Z" fill="url(#golds11)" fill-opacity=".16" /><path d="M-100 90 L100 90" /><circle cx="-120" cy="-56" r="7" /><circle cx="0" cy="-98" r="7" /><circle cx="120" cy="-56" r="7" /></g></g>
+<rect width="800" height="600" fill="none" stroke="#f7941d" stroke-opacity=".28" stroke-width="2" transform="translate(14 14) scale(0.965 0.9533333333333334)" />
+<rect width="800" height="600" fill="none" filter="url(#grains11)" />
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+
+<defs>
+  <linearGradient id="bgs9" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2522" /><stop offset="1" stop-color="#171412" /></linearGradient>
+  <radialGradient id="glows9" cx=".5" cy=".42" r=".62"><stop offset="0" stop-color="#f7941d" stop-opacity=".10" /><stop offset="1" stop-color="#f7941d" stop-opacity="0" /></radialGradient>
+  <linearGradient id="golds9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf6a" /><stop offset="1" stop-color="#f7941d" /></linearGradient>
+  <pattern id="stripess9" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="22" height="22" fill="none" /><rect width="1.4" height="22" fill="#f7941d" opacity="0" /></pattern>
+  <filter id="grains9" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" /><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0" /></filter>
+</defs>
+<rect width="800" height="600" fill="url(#bgs9)" />
+<rect width="800" height="600" fill="url(#stripess9)" />
+<rect width="800" height="600" fill="url(#glows9)" />
+<g transform="translate(400 310) scale(1.45)"><g fill="none" stroke="url(#golds9)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-20)"><rect x="-44" y="-130" width="88" height="70" rx="12" fill="url(#golds9)" fill-opacity=".14" /><path d="M-34 -130 L-34 -156" stroke-width="3" /><path d="M-22.7 -130 L-22.7 -156" stroke-width="3" /><path d="M-11.399999999999999 -130 L-11.399999999999999 -156" stroke-width="3" /><path d="M-0.09999999999999432 -130 L-0.09999999999999432 -156" stroke-width="3" /><path d="M11.200000000000003 -130 L11.200000000000003 -156" stroke-width="3" /><path d="M22.5 -130 L22.5 -156" stroke-width="3" /><path d="M33.80000000000001 -130 L33.80000000000001 -156" stroke-width="3" /><path d="M-26 -60 L-18 90 C-16 104 16 104 18 90 L26 -60" /></g></g>
+<rect width="800" height="600" fill="none" stroke="#f7941d" stroke-opacity=".28" stroke-width="2" transform="translate(14 14) scale(0.965 0.9533333333333334)" />
+<rect width="800" height="600" fill="none" filter="url(#grains9)" />
+</svg>
