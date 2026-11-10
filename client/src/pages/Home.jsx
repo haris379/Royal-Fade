@@ -45,7 +45,7 @@ export default function Home() {
     <>
       {/* HERO: full-width photo, dark overlay, centred headline. Add client/public/images/hero.jpg to use a real photo. */}
       <section className="relative flex min-h-[92vh] items-center justify-center bg-ink-900 bg-cover bg-center text-center"
-        style={{ backgroundImage: "url('/images/hero.jpg'), url('/images/hero-bg.svg')" }}>
+        style={{ backgroundImage: "url('/images/heroImage.jpg'), url('/images/hero-bg.svg')" }}>
         <div className="absolute inset-0 bg-black/55" aria-hidden />
         <div className="wrap relative pb-16 pt-32">
           <h1 className="mx-auto max-w-4xl text-4xl font-bold leading-[1.1] text-white sm:text-6xl lg:text-7xl">Your Style.<br />Our Craft.</h1>
