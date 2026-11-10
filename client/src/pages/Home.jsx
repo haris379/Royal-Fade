@@ -219,12 +219,12 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Img
-              src="/images/shop.svg"
+              src="/images/about-02.jpg"
               alt="Barber tools"
               className="aspect-[4/5] w-full rounded-lg object-cover shadow-card"
             />
             <Img
-              src="/images/about.svg"
+              src="/images/about-01.jpg"
               alt="Barber pole and scissors"
               className="mt-8 aspect-[4/5] w-full rounded-lg object-cover shadow-card"
             />
